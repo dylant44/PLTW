@@ -20,7 +20,7 @@ public class FavoriteMediaLib
 
             if(rating > 7)
             {
-                System.out.println("Title " + titleOfSong + "(" + rating + ")");
+                System.out.println(titleOfSong + "(" + rating + ")");
             }
             songInfo = songInfo.substring(index + 1);
             index = songInfo.indexOf("|");

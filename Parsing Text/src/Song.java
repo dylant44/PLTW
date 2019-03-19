@@ -25,7 +25,10 @@ public class Song
 
         numSongsInLibrary = numSongsInLibrary + 1;
     }
+    public Song(String title) {
+        this.title = title;
 
+    }
     public Song(String title, double price) {
         this.title = title;
         this.price = price;
